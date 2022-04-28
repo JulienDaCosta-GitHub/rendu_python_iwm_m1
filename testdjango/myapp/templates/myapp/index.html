@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de questions</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+        }
+        div {
+            margin: auto;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Liste de questions</h1>
+    <a href="{% url 'myapp:create' %}">Ajouter une question</a>
+    <br><br>
+    <table style="width: 100%;">
+        <thead>
+        <td><strong>Les questions enregistrées</strong></td>
+        <td colspan="2"><strong>Actions</strong></td>
+        </thead>
+        <tbody>
+        {% for question in questions %}
+        <tr>
+            <td>{{question.text}}</td>
+            <td><a href="{% url 'myapp:edit' question.id %}">Modifier</a></td>
+            <td><a href="{% url 'myapp:delete' question.id %}">Supprimer</a></td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
