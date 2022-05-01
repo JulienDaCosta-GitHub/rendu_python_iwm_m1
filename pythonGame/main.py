@@ -11,7 +11,7 @@ pygame.display.set_caption("Survival")
 p = Perso(ecran)
 
 font = pygame.font.Font('freesansbold.ttf',32)
-victory = font.render("VICTOIRE ! Tu as survécu !", True, (0, 0, 0))
+victory = font.render("VICTOIRE !", True, (0, 0, 0))
 
 counter, text = 25, '25'.rjust(3)
 pygame.time.set_timer(pygame.USEREVENT, 1000)
@@ -86,7 +86,7 @@ while loop:
 
     if showVictory == True:
         ecran.fill((255,255,255))
-        ecran.blit(victory, (300, 480))
+        ecran.blit(victory, (400, 480))
 
     pygame.display.flip()
     clock.tick(60)
