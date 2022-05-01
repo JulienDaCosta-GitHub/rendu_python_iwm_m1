@@ -18,9 +18,9 @@ Ennemis plus difficiles :
 Cercles noirs très rapides
 
 Astuces :
-Des plateformes se génèrent aléatoirement dans le ciel. Si elles sont accessibles, essayez de mettre en hauteur. Un muret se génère aussi et peut vous aider à accéder aux plateformes.
+Des plateformes se génèrent aléatoirement dans le ciel. Si elles sont accessibles, essayez de vous mettre en hauteur. Un muret se génère aussi et peut vous aider à accéder aux plateformes.
 
-Touches :
+#Touches
 
 Q = Déplacement à gauche
 
