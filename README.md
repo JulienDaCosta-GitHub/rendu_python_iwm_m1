@@ -27,3 +27,7 @@ Q = Déplacement à gauche
 D = Déplacement à droite
 
 J = Sauter
+
+# Avertissement
+
+Il se peut que le personnage soit coincé sur une plateforme qui s'est générée aléatoirement sur lui. C'est rare, mais si c'est le cas relancez le jeu.
