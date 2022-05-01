@@ -9,7 +9,16 @@ Rendu de deux projets : testdjango et pythonGame
 Possibilités : Ajouter une question, modifier une question, supprimer une question.
 
 # Jeu Python
-But : Survivre le plus longtemps possible sans toucher les ennemis qui deviennent de plus en plus nombreux.
+But : Survivre avant que le compteur qui s'affiche en haut de l'écran tombe à 0.
+
+Ennemis :
+Cercles rouges moyennement rapides
+
+Ennemis plus difficiles :
+Cercles noirs très rapides
+
+Astuces :
+Des plateformes se génèrent aléatoirement dans le ciel. Si elles sont accessibles, essayez de mettre en hauteur. Un muret se génère aussi et peut vous aider à accéder aux plateformes.
 
 Touches :
 
