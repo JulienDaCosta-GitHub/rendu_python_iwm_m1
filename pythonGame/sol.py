@@ -10,7 +10,7 @@ class Sol:
         self.ecran = ecran
 
     def Draw(self):
-        pygame.draw.rect(self.ecran, (5, 170, 5), pygame.Rect(self.x, self.y, self.width, self.height))
+        pygame.draw.rect(self.ecran, (80, 150, 0), pygame.Rect(self.x, self.y, self.width, self.height))
 
     def Collision(self, player):
         if self.y <= player.y +20 and player.x +20 >= self.x:
