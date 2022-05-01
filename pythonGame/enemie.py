@@ -16,7 +16,7 @@ class Enemie:
             self.x += deltatime* self.vit
         elif self.dir == "left":
             self.x -= deltatime* self.vit
-        self.y += deltatime* 300
+        self.y += deltatime* 150
 
     def Collision(self,player):
         if math.sqrt((player.x-self.x)**2+(player.y - self.y)**2) <= 40:
